@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<!-- 	This is the "Head" of the HTML document.
+		It contains information that isn't displayed on the actual page, but is useful
+		for the web browser when loading the page	
+	-->
+	<head>
+		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+		<title>Isabella Astro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
+			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
+		-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+			will load a separate set of CSS stylings from the file assets/css/noscript.css
+			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
+			available. 
+		-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<!-- The body is the location where your site's content will go -->
+	<body class="is-preload">
+
+			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+			<div id="wrapper">
+
+					<!-- This is where the content that appears on page load exists -->
+					<header id="header">
+						<!-- This is the main content of the front page -->
+						<div class="content">
+							<div class="inner">
+								<!-- Here is a heading where you can put your name -->
+								<h1>
+									Isabella
+					G. Cox
+								</h1>
+								<!-- 	Here is an image where you can put a picture of you. 
+									You can change the width and height attributes below to change how large
+									your image is.
+
+									Try adding "border-radius: 50%;" to the style attribute.
+								-->
+								<img src="images/headshot.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<!-- 	Here is a paragraph where you can put your position and institution, or
+									a short line about yourself.
+								-->
+								<p>
+									Undergraduate
+								Researcher
+								<br>
+								Rochester
+								Institute
+								of Technology
+								</p>
+								<!-- Here is a paragraph where you can put a link to your CV -->
+								<p>
+									<!-- Note you will want to change where this points to! -->
+									<a href="images/cox_cv.pdf" target="_blank">Curriculum Vitae</a>
+								</p>
+							</div>
+						</div>
+						<!-- This is the navigation menu -->
+						<nav>
+							<!-- This element makes an "Unordered List" -->
+							<ul>
+								<!-- This is a "List Item" -->
+								<li>
+									<!-- 	Note that this links to #about, which will move the page to wherever
+										the element with the id "about" exists.
+									-->
+									<a href="#about">About Me</a>
+								</li>
+								<li>
+									<a href="#research">Research</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								<!-- 	You can add another button to your navigation menu by adding
+									another List Item with a link inside of it.
+								-->
+								<!-- <li>
+									<a href="images/Astronomy.jpg">My CV</a>
+								</li> -->
+							</ul>
+						</nav>
+					</header>
+
+					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+					<div id="main">
+						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
+							button links to.
+						-->
+						<article id="about">
+							<h2 class="major">About Me</h2>
+							<!-- Here are three paragraphs where you can fill out information about yourself -->
+							<p>
+								<!-- Items contained in <b> tags are bolded! -->
+								<b>Education:</b><br>
+					  Brighton High School with
+					Mastery in Mathematics
+					  (Rochester, NY) <br>
+					  Rochester Institute of
+					Technology Physics Major and
+					Astronomy Minor (2016-2020)<br>
+							</p>
+							<p>
+								<b>Research
+					Interests:</b><br>
+					  Galaxy Evolution<br>
+					  Galaxy Mergers and
+					  Interactions<br>
+					  Brightest Cluster
+					  Galaxies<br>
+					  High Redshift 
+							</p>
+							<p>
+								<b>Publications
+					and Presentations:</b>
+					<a
+					target="_blank" href="https://arxiv.org/search/astro-ph?searchtype=author&query=Cox%2C+I+G">
+					Link
+					to Published
+					Work<br> See CV for published
+					work and list of presentations</a>
+							</p>
+						</article>
+
+						<!-- Here is the "Research" card. -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+							<p>
+								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
+									the next line.
+								-->
+								<b>Reduction
+						and Analysis of
+						Herschel Selected
+						Sources in
+						CANDELS</b><br>Wrote
+						pipeline script to
+						reduce multi-object
+						spectroscopic data
+						from the Gemini North
+						Telescope to measure
+						redshifts of observed
+						galaxies. Currently
+						flux calibrating data
+						to perform science
+						analysis using
+						emission line fluxes (2016-ongoing).
+							</p>
+							<p>
+								<b>Brighest
+						Cluster Galaxies
+						Identified as Possibly
+						Undergoing Star
+						Formation</b><br> Performed a multiwavelength analysis of a sample of Brightest Cluster Galaxies. Analysis included working with spectroscopic and photometric data to extract star formation rates and other properties of galaxies. Mentored by Dr. Stefi Baum and Dr. Chris O’Dea (2014-2016).
+							</p> 
+							<p>
+								<b>ELF:
+						A Python Program to
+						Extract Information
+						from Optical Emission
+						Line Fluxes</b><br>Designed and implemented Python program to classify a list of galaxies inputted by coordinates using spectral emission line features from spectroscopy taken as part of the Sloan Digital Sky Survey. Independently designed project (2015-2016).
+							</p> 
+					  </article>
+						<!-- Here is a the "Contact" card. -->
+						<article id="contact">
+							<h2
+					  class="major">Contact</h2>
+					  <img src="images/headshot.jpg" style="width:280px; height:280px; object-fit: cover;">
+							<p> 
+								<b>Email:
+						igc5972@rit.edu</b> 
+							</p>
+
+						</article>
+					</div>
+
+					<!-- This is the footer that appears at the bottom of the page -->
+					<footer id="footer">
+						<!-- 	You can change "Untitled" to your name to show everyone that
+							this is your work.
+						-->
+						<p
+					class="copyright">&copy;
+					Isabella G. Cox Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+			<!--	This is the background image of the site.
+				All configuration of the background is done with CSS.
+				Look in the file assets/css/main.css and search for "#bg" to
+				see how this element is styled. Look for comments pointing 
+				to where you can set a new background image.
+			-->
+			<div id="bg"></div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
